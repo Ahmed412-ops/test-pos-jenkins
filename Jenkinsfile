@@ -6,7 +6,6 @@ pipeline {
             steps {
                     checkout scm
             }
-
         }
         stage('publish backend') {
             powershell """
